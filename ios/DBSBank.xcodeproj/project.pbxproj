@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-DBSBank-DBSBankTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DBSBank-DBSBankTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		165EB465B28D47CA8EAAF052 /* RalewayLiningFig-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D12FAF234424EBBAFD2260E /* RalewayLiningFig-Heavy.otf */; };
+		015448EBB30945D4A6789FE4 /* RalewayLiningFig-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C184E0DF46F4E64BEE52E13 /* RalewayLiningFig-SemiBold.otf */; };
+		677F7FBEEEA446D68B3658CD /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FFB32D3B4AA44138CF1245C /* Raleway-Bold.ttf */; };
+		3F887813C2E74241AB65BB93 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6746466716E4B81A3593B3F /* Raleway-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DBSBank/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-DBSBank-DBSBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSBank-DBSBankTests.release.xcconfig"; path = "Target Support Files/Pods-DBSBank-DBSBankTests/Pods-DBSBank-DBSBankTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2D12FAF234424EBBAFD2260E /* RalewayLiningFig-Heavy.otf */ = {isa = PBXFileReference; name = "RalewayLiningFig-Heavy.otf"; path = "../assets/fonts/RalewayLiningFig-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C184E0DF46F4E64BEE52E13 /* RalewayLiningFig-SemiBold.otf */ = {isa = PBXFileReference; name = "RalewayLiningFig-SemiBold.otf"; path = "../assets/fonts/RalewayLiningFig-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FFB32D3B4AA44138CF1245C /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6746466716E4B81A3593B3F /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E69CB95178EF4CC59EBB3AA2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +158,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		E69CB95178EF4CC59EBB3AA2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				2D12FAF234424EBBAFD2260E /* RalewayLiningFig-Heavy.otf */,
+				0C184E0DF46F4E64BEE52E13 /* RalewayLiningFig-SemiBold.otf */,
+				8FFB32D3B4AA44138CF1245C /* Raleway-Bold.ttf */,
+				E6746466716E4B81A3593B3F /* Raleway-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +266,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				165EB465B28D47CA8EAAF052 /* RalewayLiningFig-Heavy.otf in Resources */,
+				015448EBB30945D4A6789FE4 /* RalewayLiningFig-SemiBold.otf in Resources */,
+				677F7FBEEEA446D68B3658CD /* Raleway-Bold.ttf in Resources */,
+				3F887813C2E74241AB65BB93 /* Raleway-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Raleway-Bold.ttf",
+      "sha1": "ab21b55115bd50a57f3a95ec4eda834eee675d04"
+    },
+    {
+      "path": "assets/fonts/Raleway-SemiBold.ttf",
+      "sha1": "3dd2bfca1944f82e928417d0399b8725b83728aa"
+    },
+    {
+      "path": "assets/fonts/RalewayLiningFig-Heavy.otf",
+      "sha1": "1d4c103137d2cf30c96466343ccc47329ffc0a97"
+    },
+    {
+      "path": "assets/fonts/RalewayLiningFig-SemiBold.otf",
+      "sha1": "ef1d9c131cbb1b08e55066ea89b0452c9088c02d"
+    }
+  ]
+}
